@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="select.js"></script>
+        <style>
+        
+        #result {
+            border: 1px solid gray;   
+            padding: 5%;
+            text-align: center;
+        }
+        </style>
+        <title>Exchange Rate</title>
+    </head>
+    <body>
+        
+        <h1>Exchange Rate</h1>
+        <hr>
+        <br>
+        <form id="exchangeForm">
+            Base Currency: <select id="baseOpt" name="base">
+                <option value="" disabled selected>Select your base currency</option>
+            </select>
+            <br><br>
+            Exchange Currency:<select id="excOpt" name="exchange">
+                    <option value="" disabled selected>Select your exchange currency</option>
+                </select>
+                <br><br>
+            <input type="submit" value="Submit Currency">
+        </form> 
+       
+        <h2 id="result"></h2>
+        
+    </body>
+</html>
